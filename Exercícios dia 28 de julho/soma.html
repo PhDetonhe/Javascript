@@ -1,0 +1,24 @@
+//Elaborar um programa que leia um número. Calcule e informe os seus
+vizinhos, ou seja, o número anterior e posterior.
+Exemplo:
+Número: 15
+Vizinhos: 14 e 16
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let numero = Number(prompt("Digite um numero:"));
+    let vizinho = 1;
+    let resultado1 = numero + 1;
+    let resultado2 = numero - 1;
+    let text = "Os dois vizinhos do numero são: " + resultado1 +    resultado2;
+    console.log(text);
+    alert(text);
+    </script>
+</body>
+</html>

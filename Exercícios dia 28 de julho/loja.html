@@ -1,0 +1,26 @@
+Elaborar um programa para uma loja, o qual leia o preço de um produto e
+informe as opções de pagamento da loja. Calcule e informe o valor para
+pagamento à vista com 10% de desconto e o valor em 3x.
+Exemplo:
+Preço R$: 60.00
+À Vista R$: 54.00
+Ou 3x de R$: 20.00
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let t1 = Number(prompt("Digite o valor do produto:"));
+    let porcentagem = t1 * 0.1;
+    let vista = t1 - porcentagem
+    let parcela = t1 / 3; 
+    let text = "Valor a ser pago á vista: " + vista + " valor a ser pago parcelado em 3 vezes: " + parcela 
+    console.log(text);
+    alert(text);
+    </script>
+</body>
+</html>
