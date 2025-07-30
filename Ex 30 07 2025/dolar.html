@@ -1,0 +1,19 @@
+ 6 - Elaborar um programa em javascript que apresente o valor da conversão em real (R$) de um valorlido em dólar (US$). O programa deve solicitar o valor da cotação do dólar.
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let c = Number(prompt("Insira a cotação do dolar:"));
+        let qd = Number(prompt("Insira o valor de dolares:"));
+        let conversão = qd * c;
+        let text = " Na conversão, o valor em reais seria: " + conversão;
+        console.log(text);
+        alert(text);
+    </script>
+</body>
+</html>
