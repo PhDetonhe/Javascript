@@ -1,0 +1,19 @@
+4 - Alguns países medem temperaturas em graus Celsius,
+e outros em graus Fahrenheit. Faça umprograma em javascript para ler uma temperatura Celsius e exibi-la em Fahrenheit (pesquise como fazer este tipo de conversão).
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let s = Number(prompt("Insira a temperatura em graus Celsius:"))
+        let Fh = (s * 1.8) + 32;
+        let text = "temperatura em graus Celsius:" + s + "Em fahrenheit:" + Fh ;
+        console.log(text);
+        alert(text);
+    </script>
+</body>
+</html>
