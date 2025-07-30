@@ -1,0 +1,21 @@
+2 - Uma fábrica de camisetas produz os tamanhos pequeno, médio e grande, cada uma sendo vendida respectivamente por 10, 12 e 15 reais.
+ Construa um programa em javascript em que o usuário forneça a quantidade de camisetas pequenas, médias e grandes referentes a uma venda, e a máquina informe quanto será o valor arrecadado.
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let t2 = Number(prompt("Insira quantas camisetas de tamanho pequeno:"));
+        let t1 = Number(prompt("Insira quantas camisetas de tamanho médio:"));
+        let t3 = Number(prompt("Insira quantas camisetas de tamanho grande:"));
+        let VA = (t2 * 10) + (t1 * 12) + (t3 * 15);
+        let text = "O valor total arrecadado será: " + VA + " R$";
+        console.log(text);
+        alert(text);
+    </script>
+</body>
+</html>
