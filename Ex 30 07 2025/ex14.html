@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nome = prompt("Insira seu nome: ")
+        let idade = Number(prompt("Insira sua idade: "))
+        let doc = prompt("Você está com seu documento?")
+
+        if(idade >= 18 && doc == "sim"){
+            document.write("acesso permitido")
+        }
+        else if(idade < 18){
+            document.write("acesso negado")
+        }
+        else if(doc == "não"){
+            document.write("acesso negado")
+        }
+    </script>
+</body>
+</html>
